@@ -389,7 +389,7 @@ function Game() {
               style={{
                 backgroundImage: `url(${piece.photo})`,
                 backgroundSize: `${piece.gridSize * 100}%`,
-                backgroundPosition: `${piece.col * 50}% ${piece.row * 50}%`
+                backgroundPosition: `${piece.col * -100}% ${piece.row * -100}%`
               }}
             />
           </div>
@@ -505,7 +505,7 @@ function Game() {
                       style={{
                         backgroundImage: `url(${piece.photo})`,
                         backgroundSize: `${piece.gridSize * 100}%`,
-                        backgroundPosition: `${piece.col * 50}% ${piece.row * 50}%`
+                        backgroundPosition: `${piece.col * -100}% ${piece.row * -100}%`
                       }}
                     />
                   </div>
